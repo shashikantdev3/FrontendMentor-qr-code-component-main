@@ -67,6 +67,7 @@ body{
     place-content: center;
     font-family: var(--ff-outfit);
     font-size: var(--fs);
+    
 }
 
 main{
@@ -75,6 +76,8 @@ main{
     padding: 1rem;
     border-radius: 1rem;
     background-color: var(--clr-white);
+    max-width: 480px;
+    max-height: 760px;
 }
 
 .qr__code-image{
